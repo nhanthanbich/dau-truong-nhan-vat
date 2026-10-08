@@ -1,0 +1,24 @@
+{
+  "name": "PvE forces TU_DO and applies tier only to HP ATK DEF",
+  "requested_mode": "CAN_BANG",
+  "tier": "S",
+  "base_stats": {
+    "hp_nen": 300,
+    "atk_nen": 80,
+    "def_nen": 40,
+    "spd_nen": 100,
+    "mp_nen": 50,
+    "mp_hoi_moi_luot": 5
+  },
+  "allocation": { "hp": 1, "atk": 1, "def": 1, "spd": 1, "mp": 1, "mp_hoi": 0 },
+  "expected": {
+    "mode": "TU_DO",
+    "tier_multiplier": 1.08,
+    "hp": 343,
+    "atk": 91,
+    "def": 52,
+    "spd": 103,
+    "mp": 55,
+    "mp_hoi": 5
+  }
+}

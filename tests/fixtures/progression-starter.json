@@ -1,0 +1,8 @@
+{
+  "name": "starter pack has 10 unique heroes and both guarantees",
+  "seed": 42,
+  "expected_count": 10,
+  "expected_unique": 10,
+  "guaranteed_tiers": ["S", "SS"],
+  "minimum_tiers": ["A", "S", "SS"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tier multiplier, action damage, and lock CC",
+  "rng_seed": 123456789,
+  "tier": "SSS",
+  "mode": "TU_DO",
+  "base_stats": { "hp_nen": 700, "atk_nen": 80, "def_nen": 40, "spd_nen": 100, "mp_nen": 60, "mp_hoi_moi_luot": 8 },
+  "allocation": { "hp": 2, "atk": 1, "def": 0, "spd": 2, "mp": 0, "mp_hoi": 0 },
+  "attacker_skill": "strike-stun",
+  "effects": [
+    { "ma_hieu_ung": "EFF_DMG_DIRECT", "tham_so": { "he_so": 1 }, "doi_tuong": "MOT_DICH", "thoi_diem": "KHI_THI_TRIEN" },
+    { "ma_hieu_ung": "EFF_STUN", "tham_so": { "so_luot": 2 }, "doi_tuong": "MOT_DICH", "thoi_diem": "KHI_THI_TRIEN" }
+  ],
+  "expected": {
+    "effective_base_hp": 854,
+    "effective_base_atk": 98,
+    "effective_base_def": 49,
+    "effective_spd": 106,
+    "stun_duration": 2,
+    "new_lock_while_locked": "DANG_MANG_CC"
+  }
+}
